@@ -1,3 +1,4 @@
 # SPMSHOHProxy
 
-A description of this package.
+Supported RxSwift ~> 5.0
+Not Contain Test Libraries (RxTest, RxExpect...etc)
