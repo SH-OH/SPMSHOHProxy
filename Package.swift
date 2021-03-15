@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "SPMSHOHProxy",
     platforms: [
-        .iOS(.v13), .macOS(.v11)
+        .iOS(.v10), .macOS(.v11)
     ],
     products: [
         .library(
@@ -19,9 +19,7 @@ let package = Package(
         .package(url: "https://github.com/ReactorKit/ReactorKit.git", .upToNextMajor(from: "2.0.0")),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.0")),
         .package(url: "https://github.com/RxSwiftCommunity/RxDataSources.git", .upToNextMajor(from: "4.0.0")),
-        .package(url: "https://github.com/devxoul/Then.git", .upToNextMajor(from: "2.0.0")),
         .package(url: "https://github.com/Moya/Moya.git", .upToNextMajor(from: "14.0.0")),
-        .package(url: "https://github.com/SnapKit/SnapKit.git", .upToNextMajor(from: "5.0.0")),
         .package(url: "https://github.com/onevcat/Kingfisher.git", .upToNextMajor(from: "6.0.0"))
     ],
     targets: [
@@ -32,9 +30,7 @@ let package = Package(
                 "RxSwift",
                 .product(name: "RxCocoa", package: "RxSwift"),
                 "RxDataSources",
-                "Then",
                 .product(name: "RxMoya", package: "Moya"),
-                "SnapKit",
                 "Kingfisher"
             ]
         ),
