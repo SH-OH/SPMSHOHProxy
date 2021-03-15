@@ -4,6 +4,7 @@ import XCTest
 public func allTests() -> [XCTestCaseEntry] {
     return [
         testCase(SPMSHOHProxyTests.allTests),
+        testCase(ExtensionsTests.allTests)
     ]
 }
 #endif

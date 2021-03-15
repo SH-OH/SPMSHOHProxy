@@ -26,4 +26,9 @@ final class ExtensionsTests: XCTestCase {
         
         XCTAssertEqual(cellName, reuseIdentifier)
     }
+    
+    static var allTests = [
+        ("test_Array_아웃오브인덱스인경우_safe되는지", test_Array_아웃오브인덱스인경우_safe되는지),
+        ("test_CV셀_클래스이름과_reuseIdentifier이_같은지", test_CV셀_클래스이름과_reuseIdentifier이_같은지)
+    ]
 }
