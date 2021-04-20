@@ -2,12 +2,13 @@
 
 ### OnlyExtensions
 
-* Install the latest version.
+Install the latest version.
 
 ### All
 
-* Install main branch.
 > **Note**: This needs to be checked for dependencies yet.
+
+Install main branch.
 
 * Supported RxSwift ~> 5.0.
 * Not Contain Test Libraries (RxTest, RxExpect...etc).
