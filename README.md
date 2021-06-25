@@ -1,10 +1,10 @@
 ## SPMSHOHProxy
 
-### OnlyExtensions
+### 1. OnlyExtensions
 
 Install the latest version.
 
-### All
+### 2. All
 
 > **Note**: This needs to be checked for dependencies yet.
 
