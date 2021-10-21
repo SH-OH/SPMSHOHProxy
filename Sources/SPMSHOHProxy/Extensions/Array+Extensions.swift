@@ -8,7 +8,7 @@ extension Array {
 }
 
 extension Array where Element: Equatable {
-    static func == (
+    public static func == (
         lhs: Array<Element>,
         rhs: Array<Element>
     ) -> Bool {

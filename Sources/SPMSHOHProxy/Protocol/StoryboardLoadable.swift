@@ -1,6 +1,6 @@
 import UIKit.UIViewController
 
-protocol StoryboardLoadable where Self: UIViewController {}
+public protocol StoryboardLoadable where Self: UIViewController {}
 
 extension StoryboardLoadable {
     public static var identifier: String {

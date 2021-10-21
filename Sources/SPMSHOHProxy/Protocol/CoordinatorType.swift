@@ -1,17 +1,17 @@
 import UIKit.UINavigationController
 
-protocol CoordinatorType {
+public protocol CoordinatorType {
     func start()
     func coordinate(to coordinator: CoordinatorType)
 }
 
 extension CoordinatorType {
-    func coordinate(to coordinator: CoordinatorType) {
+    public func coordinate(to coordinator: CoordinatorType) {
         coordinator.start()
     }
 }
 
-protocol Coodinatable {
+public protocol Coodinatable {
     associatedtype Coordinator: CoordinatorType
     var coordinator: Coordinator { get }
 }
