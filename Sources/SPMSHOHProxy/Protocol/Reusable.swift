@@ -1,8 +1,6 @@
 import Foundation
 
-public protocol Reusable: class {
-    static var reuseIdentifier: String { get }
-}
+public protocol Reusable {}
 
 extension Reusable {
     public static var reuseIdentifier: String {
