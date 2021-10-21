@@ -1,13 +1,13 @@
 import UIKit.UINavigationController
 
 public protocol CoordinatorType {
-    func start()
-    func coordinate(to coordinator: CoordinatorType)
+    func start(with dependency: Dependency?)
+    func coordinate(to coordinator: CoordinatorType, with dependency: Dependency?)
 }
 
 extension CoordinatorType {
-    public func coordinate(to coordinator: CoordinatorType) {
-        coordinator.start()
+    public func coordinate(to coordinator: CoordinatorType, with dependency: Dependency? = nil) {
+        coordinator.start(with: dependency)
     }
 }
 
