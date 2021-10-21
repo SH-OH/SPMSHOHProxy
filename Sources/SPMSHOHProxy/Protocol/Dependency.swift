@@ -7,6 +7,6 @@
 
 import Foundation
 
-public protocol Dependency: AnyObject {}
+public protocol Dependency {}
 
 public protocol EmptyDependency: Dependency {}
