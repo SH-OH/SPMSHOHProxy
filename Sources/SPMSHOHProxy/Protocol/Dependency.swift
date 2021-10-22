@@ -7,6 +7,4 @@
 
 import Foundation
 
-public protocol Dependency {}
-
-public protocol EmptyDependency: Dependency {}
+public protocol DependencyType {}
