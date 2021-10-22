@@ -7,7 +7,6 @@
 
 import XCTest
 @testable import SPMSHOHProxy
-import RxSwift
 import UIKit
 
 final class ExtensionsTests: XCTestCase {
