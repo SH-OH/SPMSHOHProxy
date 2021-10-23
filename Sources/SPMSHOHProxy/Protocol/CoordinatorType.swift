@@ -13,5 +13,5 @@ extension CoordinatorType {
 
 public protocol Coodinatable {
     associatedtype Coordinator: CoordinatorType
-    var coordinator: Coordinator { get }
+    var coordinator: Coordinator? { get }
 }
