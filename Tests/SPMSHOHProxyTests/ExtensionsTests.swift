@@ -1,10 +1,3 @@
-//
-//  File.swift
-//  
-//
-//  Created by Oh Sangho on 2021/03/15.
-//
-
 import XCTest
 @testable import SPMSHOHProxy
 import UIKit
