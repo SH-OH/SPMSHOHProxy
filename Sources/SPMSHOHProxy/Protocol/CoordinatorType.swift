@@ -3,12 +3,8 @@ import UIKit.UINavigationController
 public protocol NavigationType {}
 
 public protocol CoordinatorType {
-    func start(with dependency: DependencyType?)
-    func navigate(to navigation: NavigationType, with dependency: DependencyType?)
-}
-
-extension CoordinatorType {
-    public func navigate(to navigation: NavigationType, with dependency: DependencyType?) {}
+    func start(with dependency: DependencyType)
+    func navigate(to navigation: NavigationType, with dependency: DependencyType)
 }
 
 public protocol Coordinatable {
