@@ -11,7 +11,10 @@ extension CoordinatorType {
     }
 }
 
-public protocol Coodinatable {
+public protocol NavigationType {}
+
+public protocol Coordinatable {
     associatedtype Coordinator: CoordinatorType
     var coordinator: Coordinator? { get }
+    func navigate(to navigation: NavigationType, with dependency: DependencyType?)
 }
