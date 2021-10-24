@@ -7,7 +7,7 @@ public struct EmptyDependency: DependencyType {
 }
 
 extension DependencyType {
-    public final func cast<T: DependencyType>(_ type: T.Type) -> T {
+    public func cast<T: DependencyType>(_ type: T.Type) -> T {
         guard let dependency = self as? T else {
             preconditionFailure("Failed Cast Dependency")
         }
